@@ -1,0 +1,180 @@
+/*ETIQUETAS*/
+
+h1 {
+	color: rgb(1,15,43);
+	margin-left: 15px;
+	margin-top: auto;
+	font-size: 40px;
+	text-align: center;
+	}
+
+h2 {
+	margin-left: 15px;
+	margin-top: auto;
+	font-size: 25px;
+	text-align: center;
+}
+
+h4 {
+	color: white;
+	font-weight: bold;
+}
+
+h3{
+	text-align: center;
+	color: rgb(1,15,43);
+}
+
+.imgcenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+
+
+img {
+	border: 1px black solid;
+	width:auto;
+	border-radius: 10px;
+	background-color: white;
+	width: 350px;
+	height: 80px;
+
+}
+
+
+.cursiva {
+	font-style: oblique;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.cursiva1 {
+	font-style: oblique;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	float: auto;
+}
+
+
+body {
+	background-color: rgb(249,249,260);
+}
+
+
+
+#contenido{
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+	background-color: rgb(247,203,0);
+	position: relative;
+	
+}
+
+
+body {
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: auto;
+	background-size: auto;
+}
+
+
+
+header {
+	background-color: rgba(255,255,255,0.4);
+}
+
+
+nav {
+width: 700px;
+height: 50px;
+margin: auto;
+border-radius: 10px;
+}
+
+
+ul {
+	margin: auto;
+	padding-top: auto;
+}
+
+
+li {
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background-color: rgb(23,89,255);
+	margin: 5px;
+	font-style: italic; 
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 0 0 10px yellow inset;
+}
+
+section{
+	margin-top: 10px;
+	width: 700px;
+	background-color: rgb(255,253,135);
+	height: 600px;
+	float: left;
+	border-radius: 10px;
+}
+
+aside{
+	margin-top: 10px;
+	width: 280px;
+	background-color: white;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	border-radius: 10px;
+
+}
+
+footer{
+	width: 1000px;
+	height: 100px;
+	background-color: rgb(0,0,25);
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
+p{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 10px;
+	text-align: justify;
+	font-style: italic;
+
+}
+
+
+/*CLASES*/
+
+.imagen_index{width: 600px; height: 250px;}
+.ancho_menu_home{width: 1200px}
+.ancho_menu_paginas{width: 1366px}
+.link_fondos_claros{color: blue;text-decoration: none; font-size: 13px;font-weight: bold;}
+.imagen_botton{width: 90px; height: 90px; float: auto;}
+.menu:link{ color: white; text-decoration: none;}
+.menu:visited{ color: white; text-decoration: none;}
+.menu:hover{ color: white; text-decoration: none; text-shadow: 0 0 10px blue;}
+.menu:active{ color: white; text-decoration: none;}
+
+
+/*SEUDOCLASES*/
+li:hover{
+	background: yellow;
+	box-shadow: 0 0 10px yellow inset;
+}
